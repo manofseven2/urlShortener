@@ -1,0 +1,6 @@
+version: '3'
+services:
+  portal:
+    image: url-shortner:latest
+    ports:
+      - 8081:8081

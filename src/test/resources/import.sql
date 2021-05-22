@@ -1,0 +1,1 @@
+insert into public.urls (ORIGINAL_URL, SHORTENED_URL) values ( 'test/test/test', 'test3');
