@@ -68,7 +68,7 @@ to stop running docker container:
 -  to save a url
 
 `curl -X POST \
-  http://URL:8081/urls \
+  http://URL:8081/resources/urls \
   -H 'cache-control: no-cache' \
   -H 'content-type: application/json' \
   -H 'postman-token: c16a74c3-e71d-bb65-76a7-c34cc45a4243' \
@@ -79,6 +79,6 @@ to stop running docker container:
 -  to get a url
 
 `curl -X GET \
-   'http://URL:8081/urls?url=https%3A%2F%2Fbit.ly%2F77981f9d2f' \
+   'http://URL:8081/resources/urls?url=https%3A%2F%2Fbit.ly%2F77981f9d2f' \
    -H 'cache-control: no-cache' \
    -H 'postman-token: e93e4408-ad47-9058-384c-a098b8c6acb4'`
