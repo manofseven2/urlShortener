@@ -18,17 +18,10 @@ Requirements
 	Assume application will be distributed as Docker image. Provide Dockerfile, but don’t waste too much time for building and testing docker image, focus on functionality. 
 	Assume importance levels:
 
-1-  Code working as described in requirements,
-2-  Application is building with simple javac, mvn install or gradle build command (or any basic build command working on behalf of programming language you choose),
-3-  Unit tests are included. Coverage level depends on time you have left to complete the assignment, but we would like to see business logic (service layer) coverage at 60%,
-4-  Other things you would like to implement for this project (ex. Database, application test coverage over 90%, API for gathering different statistics,  UI or whatever else you think would make your application extraordinary),
-
-**Assessment**
-Treat this as a real project. It should be readable, maintainable, and extensible where
-appropriate. The implementation should preferably be in Java, however any language can be used.
-If you will transfer it to another team - it should be clear how to work with it and
-what is going on. You should send us a link to a Git repository that we will be able to clone.
-
+-  Code working as described in requirements,
+-  Application is building with simple javac, mvn install or gradle build command (or any basic build command working on behalf of programming language you choose),
+-  Unit tests are included. Coverage level depends on time you have left to complete the assignment, but we would like to see business logic (service layer) coverage at 60%,
+-  Other things you would like to implement for this project (ex. Database, application test coverage over 90%, API for gathering different statistics,  UI or whatever else you think would make your application extraordinary),
 
 
 
